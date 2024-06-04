@@ -3,13 +3,737 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="shortcut icon" href="../assets/img/logo.ico" type="image/x-icon">
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="../assets/css/formulaire.css"> -->
+    <link rel="stylesheet" href="../assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="../assets/icons/font/bootstrap-icons.min.css">
+    <!-- <link rel="stylesheet" href="../assets/css/spectral.css"> -->
+    <link rel="stylesheet" href="../assets/css/scrollbar.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Dashboard d'administration</h1>
-    </div>
+    <div class="line"><a href=""><span></span><span></span><span></span><span></span></a></div>
+    <header>
+        <nav class="desktop nav fixed-top navbar navbar-expand-custom navbar-mainbg">
+            <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-white"></i>
+            </button>
+            <div class="container justify-content-center">
+                <div class="row justify-content-center">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto justify-content-center">
+                                <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#"><i class="fa fa-home"></i>Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./Projets/TheArtOfWar/"><i class="fa fa-chart-bar"></i>Charts</a>
+                                </li>
+                                <img class="logo" src="/assets/img/logo.ico" alt="">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fa fa-chart-bar"></i>Charts</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Charts</a>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="mobile navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Logo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Logo</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li> -->
+                  </ul>
+                  <!-- <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-success" type="submit">Search</button>
+                  </form> -->
+                </div>
+              </div>
+            </div>
+        </nav>
+        <section id="space"></section>
+        <!-- <section id="rain-video">
+            <video playsinline autoplay muted loop id="rain-video">
+                <source src="/assets/video/02.webm" type="video/webm">
+            </video>
+        </section> -->
+        <!-- <section id="banner">
+            <video playsinline autoplay muted loop id="symbot-video">
+                <source src="/assets/video/intro.mp4" type="video/mp4">
+            </video>
+        </section> -->
+    </header>
+</body>
+    
+    <main class="site-wrapper">
+        <section id="portfolio">
+            <section id="introduction">
+                <div class="container my-5">
+                    <h1 class="text-center">Qui suis-je ?</h1>
+                    <p>pioutoiutopiutopiut</p>
+                    <div class="border-bottom"></div>
+
+                </div>
+            </section>
+            <div class="container my-5">
+                <h1 class="text-center">Mes création</h1>
+                <article id="Symbot">
+                    <div class="row align-items-center">
+                        <div class="col text-center zoom">
+                            <!-- <img class="logo-symbiot" src="/assets/gif/symbiot.gif" alt=""> -->
+                            <video playsinline autoplay muted loop id="symbot-video">
+                                <source src="/assets/video/intro.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="col text-center">
+                            <h1>Application web</h1>
+                            <p>J'ai developpé un gestionnaire de serveur discord tout en un<br>
+                            Conçus pour améliorer, sécuriser et faire grandir discord.</p>
+                            <!-- <img class="logo-symbot" src="/assets/img/Logo.png" alt=""> -->
+                            <div class="Purple-line">
+                                <form>
+                                    <a href="#">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        Submit
+                                    </a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article id="TheArtOfWar">
+                    <div class="row reverse align-items-center">
+                        <div class="col text-center zoom">
+                            <img class="logo-TheArtOfWar" src="/assets/img/TheArtOfWar/main3.png" alt="">
+                        </div>
+                        <div class="col text-center">
+                            <h1>Map modding - Unreal Engine 4</h1>
+                            <p>J'ai crée ma propre map pour le jeu Mordhau<br>
+                            De même qu'un mod unique jouable sur cette dernière.</p>
+                            <!-- <img class="logo-symbot" src="/assets/img/TheArtOfWar/main.png" alt=""> -->
+                            <div class="Blue-line">
+                                <form>
+                                    <a href="#">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        Submit
+                                    </a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article id="DBM">
+                    <div class="row align-items-center">
+                        <div class="col text-center zoom">
+                            <img class="logo-DBM" src="/assets/img/Discord Bot Maker/main.png" alt="">
+                        </div>
+                        <div class="col text-center">
+                            <h1>Discord Bot Maker</h1>
+                            <p>J'effectue des traduction française pour DBM<br>
+                            Traduction de fichiers Javascript crée par des portugais.</p>
+                            <!-- <img class="logo-symbot" src="/assets/img/Logo.png" alt=""> -->
+                            <div class="Gold-line">
+                                <form>
+                                    <a href="#">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        Submit
+                                    </a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article id="discord">
+                    <div class="row reverse align-items-center">
+                        <div class="col text-center zoom">
+                            <img class="logo-symbiot" src="/assets/gif/symbiot.gif" alt="">
+                        </div>
+                        <div class="col text-center">
+                            <h1>Serveur discord</h1>
+                            <p>J'ai crée une base de donnée relatif au monde du numérique<br>
+                            Le but est de regrouper toutes les infos, tutos, astuce du divers jeux, logiciles afin de crée une bibliothèque de connaissance dans le digital et le numérique.</p>
+                            <!-- <img class="logo-symbot" src="/assets/img/Logo.png" alt=""> -->
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- <section id="diaporama">
+            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                    <img src="/assets/img/1296319.jpg" alt="">
+                    <div class="container">
+                      <div class="carousel-caption text-center">
+                        <h1>Besoin d'un coup de main ?</h1>
+                        <p class="opacity-75">Bla bla bla</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Contactez-nous</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                    <div class="container">
+                      <div class="carousel-caption text-center">
+                        <h1>Besoin d'un coup de main ?</h1>
+                        <p>Bla bla bla</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Contactez-nous</a></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"/></svg>
+                    <div class="container">
+                      <div class="carousel-caption text-center">
+                        <h1>Besoin d'un coup de main ?</h1>
+                        <p>Bla bla bla</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Contactez-nous</a></p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section> -->
+        <!-- <div class="pt-table desktop-768">
+          <div class="pt-tablecell page-home relative" style="background-image: url(https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+          background-position: center;
+          background-size: cover;">
+                          <div class="overlay"></div>
+      
+                          <div class="container">
+                              <div class="row">
+                                  <div class="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
+                                      <div class="page-title  home text-center">
+                                        <span class="heading-page"> Welcome to My Page
+                                        </span>
+                                          <p class="mt20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                                      </div>
+      
+                                      <div class="hexagon-menu clear">
+                                          <div class="hexagon-item">
+                                              <div class="hex-item">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                              </div>
+                                              <div class="hex-item">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                              </div>
+                                              <a  class="hex-content">
+                                                  <span class="hex-content-inner">
+                                                      <span class="icon">
+                                                          <i class="fa fa-universal-access"></i>
+                                                      </span>
+                                                      <span class="title">Welcome</span>
+                                                  </span>
+                                                  <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                              </a>
+                                          </div>
+                                          <div class="hexagon-item">
+                                              <div class="hex-item">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                              </div>
+                                              <div class="hex-item">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                              </div>
+                                              <a  class="hex-content">
+                                                  <span class="hex-content-inner">
+                                                      <span class="icon">
+                                                          <i class="fa fa-bullseye"></i>
+                                                      </span>
+                                                      <span class="title">About</span>
+                                                  </span>
+                                                  <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                              </a>
+                                          </div>
+                                          <div class="hexagon-item">
+                                              <div class="hex-item">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                              </div>
+                                              <div class="hex-item">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                              </div>
+                                              <a  class="hex-content">
+                                                  <span class="hex-content-inner">
+                                                      <span class="icon">
+                                                          <i class="fa fa-braille"></i>
+                                                      </span>
+                                                      <span class="title">Services</span>
+                                                  </span>
+                                                  <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                              </a>    
+                                          </div>
+                                          <div class="hexagon-item">
+                                              <div class="hex-item">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                              </div>
+                                              <div class="hex-item">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                              </div>
+                                              <a  class="hex-content">
+                                                  <span class="hex-content-inner">
+                                                      <span class="icon">
+                                                          <i class="fa fa-id-badge"></i>
+                                                      </span>
+                                                      <span class="title">Resume</span>
+                                                  </span>
+                                                  <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                              </a>
+                                          </div>
+                                          <div class="hexagon-item">
+                                              <div class="hex-item">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                              </div>
+                                              <div class="hex-item">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                              </div>
+                                              <a  class="hex-content">
+                                                  <span class="hex-content-inner">
+                                                      <span class="icon">
+                                                          <i class="fa fa-life-ring"></i>
+                                                      </span>
+                                                      <span class="title">Works</span>
+                                                  </span>
+                                                  <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                              </a>
+                                          </div>
+                                          <div class="hexagon-item">
+                                              <div class="hex-item">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                              </div>
+                                              <div class="hex-item">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                              </div>
+                                              <a  class="hex-content">
+                                                  <span class="hex-content-inner">
+                                                      <span class="icon">
+                                                          <i class="fa fa-clipboard"></i>
+                                                      </span>
+                                                      <span class="title">Testimonials</span>
+                                                  </span>
+                                                  <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                              </a>
+                                          </div>
+                                          <div class="hexagon-item">
+                                              <div class="hex-item">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                              </div>
+                                              <div class="hex-item">
+                                                  <div></div>
+                                                  <div></div>
+                                                  <div></div>
+                                              </div>
+                                              <a  class="hex-content">
+                                                  <span class="hex-content-inner">
+                                                      <span class="icon">
+                                                          <i class="fa fa-map-signs"></i>
+                                                      </span>
+                                                      <span class="title">Contact</span>
+                                                  </span>
+                                                  <svg viewBox="0 0 173.20508075688772 200" height="200" width="174" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M86.60254037844386 0L173.20508075688772 50L173.20508075688772 150L86.60254037844386 200L0 150L0 50Z" fill="#1e2530"></path></svg>
+                                              </a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+        </div>
+        </div> -->
+        <!-- <section id="IMG-01">
+            <div class="container-fluid h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col">
+                        <img src="/assets/img/logo.ico" alt="">
+                    </div>
+                    <div class="col-12">
+                        <h1 class="text-center">Titre</h1>
+                        <p class="text-center">ggggggggggggggggggggggggggggggg</p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- <section id="IMG-01" class="mt-5">
+            <div class="container-fluid diap">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators ">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../assets/img/01.jpg" class="d-inline w-100" alt="HHH">
+                            <div class="carousel-caption lol gg">
+                                <h5 class="text-uppercase">Tehhhhhhhhhhhhhhhhhhhhxt</h5>
+                                <p>Bla bla bla bla bla bla bla bla</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/img/02.jpg" class="d-inline w-100" alt="HHH">
+                            <div class="carousel-caption gg">
+                                <h5 class="text-uppercase">Text</h5>
+                                <p>Bla bla bla bla bla bla bla bla</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../assets/img/03.jpg" class="d-inline w-100" alt="HHH">
+                            <div class="carousel-caption gg">
+                                <h5 class="text-uppercase">Text</h5>
+                                <p>Bla bla bla bla bla bla bla bla</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section> -->
+        <!-- <section id="test">
+            <article id="contact" class="style4">
+				<div class="container devis">
+                    <header class="text-center">
+                        <h2>Telechargez votre devis gratuit</h2>
+                        <p></p>
+                    </header>
+                    <form method="post" action="#">
+                                <div class="container align-items-center text-center formu">
+                                    <div class="row"> 	
+									    <div class="col-12 email-">
+                                            <label for="email">Votre email <i title="Champ Obligatoire">(*)</i> :</label>
+                                            <input type="email" name="email" id="email" placeholder="Email" required>
+									    </div>
+									    <div class="col-12">
+                                            <label for="text">Raison <i title="Champ Obligatoire">(*)</i> :</label>
+                                            <input type="text" name="subject" id="subject" placeholder="Objet" />
+									    </div>
+                                        <div class="col-12">
+                                            <label for="telephone">Votre téléphone :</label>
+                                            <input type="tel" name="phone" placeholder="0184805800" id="telephone" maxlength="10" pattern="^[0-9]*$" title="Merci de saisir un numéro français sans préfixe ni espace (ex: 0492548598)">
+									    </div>
+                                        <div class="col-12">
+                                            <label for="firstname">Votre prénom :</label>
+                                            <input type="text" name="firstname" id="firstname" placeholder="Emma">
+									    </div>
+                                        <div class="col-12">
+                                            <label for="lastname">Votre nom :</label>
+                                            <input type="text" name="lastname" id="lastname" placeholder="Elleressap">
+									    </div>
+									    <div class="col-12">
+                                            <label for="message">Votre message :</label>
+    										<textarea name="message" id="message" placeholder="Message"></textarea>
+									    </div>
+									    <div class="col-12">
+    										<input type="submit" value="Send Message" />
+										    <input type="reset" value="Clear Form" class="alt" />
+									    </div>
+                                    <fieldset>
+                                        <legend>Informations personnelles</legend>
+                                        <hr>
+                                        <div class="label">
+                                            <span>Vous êtes plutôt :</span>
+                                            <input type="radio" name="sexe" id="femme" value="female">
+                                            <label for="femme">une femme</label>
+                                            <input type="radio" name="sexe" id="homme" value="homme">
+                                            <label for="homme">un homme</label>
+                                            <input type="radio" name="sexe" id="autre" value="autre">
+                                            <label for="autre">à déterminer</label>
+                                        </div>
+                                        <hr>
+                                        <div>
+                                            <label for="address">Votre adresse :</label>
+                                            <input type="text" name="address" id="address">
+                                        </div>
+                                        <div>
+                                            <label for="postal">Votre code postal :</label>
+                                            <input type="text" name="postal" id="postal" maxlength="5" pattern="^[0-9]*$" 
+                                                    title="Merci de saisir un code postal français métropolitain." size="5">
+                                        </div>
+                                        <div>
+                                            <label for="city">Votre ville :</label>
+                                            <input type="text" name="city" id="city">
+                                        </div>
+                                        <div>
+                                            <label for="dep">Votre département :</label>
+                                            <select name="dep" id="dep">
+                                                <option value="04">Alpes de Haute Provence</option>
+                                                <option value="05">Hautes-Alpes</option>
+                                                <option value="06">Alpes-Maritimes</option>
+                                                <option value="13">Bouches du Rhône</option>
+                                            </select>
+                                        </div>
+                                        <hr>
+                                    </fieldset>
+                                    <fieldset>
+                                        <legend>Langues</legend>
+                                        <p>Merci de cocher toutes les langues que vous pratiquez :</p>
+                                        <div class="label">
+                                            <input type="checkbox" name="anglais" id="anglais" value="anglais">
+                                            <label for="anglais">anglais</label>
+                                            <input type="checkbox" name="français" id="français" value="français">
+                                            <label for="français">français</label>
+                                            <input type="checkbox" name="espagnol" id="espagnol" value="espagnol">
+                                            <label for="espagnol">espagnol</label>
+                                            <input type="checkbox" name="italien" id="italien" value="italien"><label for="italien">italien</label>
+                                            <input type="checkbox" name="allemand" id="allemand" value="allemand"><label for="allemand">allemand</label>
+                                            <input type="checkbox" name="arménien" id="arménien" value="arménien">
+                                            <label for="arménien">arménien</label>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                                <div class="button">
+                                    <button type="submit">Envoyer</button>
+                                </div>
+                                </div>
+                    </form>
+                </div>
+            </article>
+        </section> -->
+        
+        <!-- <section class="formulaire py-5">
+            <div class="container">
+                <form>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="1" placeholder="name@example.com">
+                            </div>
+                            <hr>
+                            <div class="mb-3">
+                                <label for="2" class="form-label">Nom</label>
+                                <input type="text" class="form-control" id="2" placeholder="nom">
+                            </div>
+                            <hr>
+                            <div class="mb-3">
+                                <label for="3" class="form-label">password</label>
+                                <input type="password" class="form-control" id="3" placeholder="********">
+                            </div>
+                            <hr>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <label for="select" class="form-label">Faites un choix</label>
+                            <select class="form-select" aria-label="Default select example" id="select">
+                                <option selected>Open this select menu</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                              </select>
+                        </div>
+                        <div class="col">
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section> -->
+    </main>
+    <footer class="footer py-3 my-4">
+        <div class="container">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item active"><a href="#" class="nav-link px-2">Mentions légale</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2">Confidentialités</a></li>
+              </ul>
+              <div class="text-center my-3">
+                <a href=""><i class="bi-tiktok icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-instagram icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-twitter-x icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-twitter icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-facebook icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-snapchat icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-google icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-youtube icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-steam icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-discord icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-github icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-reddit icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-pinterest icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-telegram icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-whatsapp icon-hover icons-size mx-3"></i></a>
+                <a href=""><i class="bi-twitch icon-hover icons-size mx-3"></i></a>
+              </div>
+              <p class="text-center">&copy; Symbot™  Tout droits réservé<br>2018 - 2024 Company, Inc</p>
+        </div>
+    </footer>
+    
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+    <script src="/assets/js/jquerry-3-7-1.js"></script>
+    <script id="rendered-js">
+            // ---------Responsive-navbar-active-animation-----------
+            function test() {
+            var tabsNewAnim = $('#navbarSupportedContent');
+            var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
+            var activeItemNewAnim = tabsNewAnim.find('.active');
+            var activeWidthNewAnimHeight = activeItemNewAnim.innerHeight();
+            var activeWidthNewAnimWidth = activeItemNewAnim.innerWidth();
+            var itemPosNewAnimTop = activeItemNewAnim.position();
+            var itemPosNewAnimLeft = activeItemNewAnim.position();
+            $(".hori-selector").css({
+                "top": itemPosNewAnimTop.top + "px",
+                "left": itemPosNewAnimLeft.left + "px",
+                "height": activeWidthNewAnimHeight + "px",
+                "width": activeWidthNewAnimWidth + "px" });
+            
+            $("#navbarSupportedContent").on("click", "li", function (e) {
+                $('#navbarSupportedContent ul li').removeClass("active");
+                $(this).addClass('active');
+                var activeWidthNewAnimHeight = $(this).innerHeight();
+                var activeWidthNewAnimWidth = $(this).innerWidth();
+                var itemPosNewAnimTop = $(this).position();
+                var itemPosNewAnimLeft = $(this).position();
+                $(".hori-selector").css({
+                "top": itemPosNewAnimTop.top + "px",
+                "left": itemPosNewAnimLeft.left + "px",
+                "height": activeWidthNewAnimHeight + "px",
+                "width": activeWidthNewAnimWidth + "px" });
+            
+            });
+            }
+            $(document).ready(function () {
+            setTimeout(function () {test();});
+            });
+            $(window).on('resize', function () {
+            setTimeout(function () {test();}, 500);
+            });
+            $(".navbar-toggler").click(function () {
+            $(".navbar-collapse").slideToggle(300);
+            setTimeout(function () {test();});
+            });
+            
+            
+            
+            // --------------add active class-on another-page move----------
+            jQuery(document).ready(function ($) {
+            // Get current path and find target link
+            var path = window.location.pathname.split("/").pop();
+            
+            // Account for home page with empty path
+            if (path == '') {
+                path = 'index.html';
+            }
+            
+            var target = $('#navbarSupportedContent ul li a[href="' + path + '"]');
+            // Add active class to target link
+            target.parent().addClass('active');
+            });
+            
+            
+            
+            
+            // Add active class on another page linked
+            // ==========================================
+            // $(window).on('load',function () {
+            //     var current = location.pathname;
+            //     console.log(current);
+            //     $('#navbarSupportedContent ul li a').each(function(){
+            //         var $this = $(this);
+            //         // if the current path is like this link, make it active
+            //         if($this.attr('href').indexOf(current) !== -1){
+            //             $this.parent().addClass('active');
+            //             $this.parents('.menu-submenu').addClass('show-dropdown');
+            //             $this.parents('.menu-submenu').parent().addClass('active');
+            //         }else{
+            //             $this.parent().removeClass('active');
+            //         }
+            //     })
+            // });
+            //# sourceURL=pen.js
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
 </body>
 </html>

@@ -95,7 +95,7 @@ html {
 	width: 100%;
 	background-size: cover;
 	z-index: 5;
-	box-shadow: 0px 15px 40px #9f0095;
+	box-shadow: 0px 0px 20px #9f0095;
 }
 
 #rain-video {
@@ -302,17 +302,17 @@ body {
 
 .logo-symbiot {
 	width: 100%;
-	box-shadow: 0px 15px 40px #9f0095;
+	box-shadow: 0px 0px 15px #9f0095;
 }
 
 .logo-TheArtOfWar {
 	width: 100%;
-	box-shadow: 0px 15px 40px #9f0095;
+	box-shadow: 0px 0px 15px #9f0095;
 }
 
 .logo-DBM {
 	width: 100%;
-	box-shadow: 0px 15px 40px #9f0095;
+	box-shadow: 0px 0px 15px #9f0095;
 }
 
 .logo-symbot {
@@ -615,6 +615,16 @@ label {
 
 .footer a {
 	color: rgb(255, 255, 255);
+}
+
+.Alpha-bloc {
+	width: 50%;
+	/* transform: translate(-50%, -50%); */
+	background: rgba(0,0,0,.5);
+	box-sizing: border-box;
+	box-shadow: 0 15px 25px rgba(0,0,0,.6);
+	border-radius: 10px;
+
 }
 
 /* #footer h1 {
@@ -921,62 +931,14 @@ label {
 
 
 
+/* ########################################################
+
+							BLUE
+
+######################################################## */
 
 
-
-/*   .Blue-line {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 400px;
-	padding: 40px;
-	transform: translate(-50%, -50%);
-	background: rgba(0,0,0,.5);
-	box-sizing: border-box;
-	box-shadow: 0 15px 25px rgba(0,0,0,.6);
-	border-radius: 10px;
-  } */
   
-  .Blue-line h2 {
-	margin: 0 0 30px;
-	padding: 0;
-	color: #fff;
-	text-align: center;
-  }
-  
-  .Blue-line .user-box {
-	position: relative;
-  }
-  
-  .Blue-line .user-box input {
-	width: 100%;
-	padding: 10px 0;
-	font-size: 16px;
-	color: #fff;
-	margin-bottom: 30px;
-	border: none;
-	border-bottom: 1px solid #fff;
-	outline: none;
-	background: transparent;
-  }
-  .Blue-line .user-box label {
-	position: absolute;
-	top:0;
-	left: 0;
-	padding: 10px 0;
-	font-size: 16px;
-	color: #fff;
-	pointer-events: none;
-	transition: .5s;
-  }
-  
-  .Blue-line .user-box input:focus ~ label,
-  .Blue-line .user-box input:valid ~ label {
-	top: -20px;
-	left: 0;
-	color: #03e9f4;
-	font-size: 12px;
-  }
   
   .Blue-line form a {
 	position: relative;
@@ -989,7 +951,8 @@ label {
 	overflow: hidden;
 	transition: .5s;
 	margin-top: 40px;
-	letter-spacing: 4px
+	letter-spacing: 4px;
+	background-color: rgba(0, 0, 0, 0.6);
   }
   
   .Blue-line a:hover {
@@ -1084,82 +1047,36 @@ label {
 
 
 
-/*   .Purple-line {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 400px;
-	padding: 40px;
-	transform: translate(-50%, -50%);
-	background: rgba(0,0,0,.5);
-	box-sizing: border-box;
-	box-shadow: 0 15px 25px rgba(0,0,0,.6);
-	border-radius: 10px;
-  } */
-  
-  .Purple-line h2 {
-	margin: 0 0 30px;
-	padding: 0;
-	color: #fff;
-	text-align: center;
-  }
-  
-  .Purple-line .user-box {
-	position: relative;
-  }
-  
-  .Purple-line .user-box input {
-	width: 100%;
-	padding: 10px 0;
-	font-size: 16px;
-	color: #fff;
-	margin-bottom: 30px;
-	border: none;
-	border-bottom: 1px solid #fff;
-	outline: none;
-	background: transparent;
-  }
-  .Purple-line .user-box label {
-	position: absolute;
-	top:0;
-	left: 0;
-	padding: 10px 0;
-	font-size: 16px;
-	color: #fff;
-	pointer-events: none;
-	transition: .5s;
-  }
-  
-  .Purple-line .user-box input:focus ~ label,
-  .Purple-line .user-box input:valid ~ label {
-	top: -20px;
-	left: 0;
-	color: #03e9f4;
-	font-size: 12px;
-  }
-  
+/* ########################################################
+
+							PURPLE
+
+######################################################## */
+
+ 
   .Purple-line form a {
 	position: relative;
 	display: inline-block;
 	padding: 10px 20px;
-	color: #03e9f4;
+	color: #cc03f4;
 	font-size: 16px;
 	text-decoration: none;
 	text-transform: uppercase;
 	overflow: hidden;
 	transition: .5s;
 	margin-top: 40px;
-	letter-spacing: 4px
+	letter-spacing: 4px;
+	background-color: rgba(0, 0, 0, 0.6);
   }
   
   .Purple-line a:hover {
-	background: #03e9f4;
+	background: #cc03f4;
 	color: #fff;
 	border-radius: 5px;
-	box-shadow: 0 0 5px #03e9f4,
-				0 0 25px #03e9f4,
-				0 0 50px #03e9f4,
-				0 0 100px #03e9f4;
+	box-shadow: 0 0 5px #cc03f4,
+				0 0 25px #cc03f4,
+				0 0 50px #cc03f4,
+				0 0 100px #cc03f4;
   }
   
   .Purple-line a span {
@@ -1172,7 +1089,8 @@ label {
 	left: -100%;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(90deg, transparent, #03e9f4);
+	/* Sert à afficher les 4 trait autour */
+	background: linear-gradient(90deg, transparent, #cc03f4);
 	animation: btn-anim1 1s linear infinite;
   }
   
@@ -1190,7 +1108,8 @@ label {
 	right: 0;
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(180deg, transparent, #03e9f4);
+	/* Sert à afficher les 4 trait autour */
+	background: linear-gradient(180deg, transparent, #cc03f4);
 	animation: btn-anim2 1s linear infinite;
 	animation-delay: .25s
   }
@@ -1209,7 +1128,8 @@ label {
 	right: -100%;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(270deg, transparent, #03e9f4);
+	/* Sert à afficher les 4 trait autour */
+	background: linear-gradient(270deg, transparent, #cc03f4);
 	animation: btn-anim3 1s linear infinite;
 	animation-delay: .5s
   }
@@ -1228,7 +1148,8 @@ label {
 	left: 0;
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(360deg, transparent, #03e9f4);
+	/* Sert à afficher les 4 trait autour */
+	background: linear-gradient(360deg, transparent, #cc03f4);
 	animation: btn-anim4 1s linear infinite;
 	animation-delay: .75s
   }
@@ -1242,84 +1163,35 @@ label {
 	}
   }
 
-/* ########################################### */
+/* ########################################################
 
-/*   .Gold-line {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 400px;
-	padding: 40px;
-	transform: translate(-50%, -50%);
-	background: rgba(0,0,0,.5);
-	box-sizing: border-box;
-	box-shadow: 0 15px 25px rgba(0,0,0,.6);
-	border-radius: 10px;
-  } */
-  
-  .Gold-line h2 {
-	margin: 0 0 30px;
-	padding: 0;
-	color: #fff;
-	text-align: center;
-  }
-  
-  .Gold-line .user-box {
-	position: relative;
-  }
-  
-  .Gold-line .user-box input {
-	width: 100%;
-	padding: 10px 0;
-	font-size: 16px;
-	color: #fff;
-	margin-bottom: 30px;
-	border: none;
-	border-bottom: 1px solid #fff;
-	outline: none;
-	background: transparent;
-  }
-  .Gold-line .user-box label {
-	position: absolute;
-	top:0;
-	left: 0;
-	padding: 10px 0;
-	font-size: 16px;
-	color: #fff;
-	pointer-events: none;
-	transition: .5s;
-  }
-  
-  .Gold-line .user-box input:focus ~ label,
-  .Gold-line .user-box input:valid ~ label {
-	top: -20px;
-	left: 0;
-	color: #03e9f4;
-	font-size: 12px;
-  }
+							GOLD
+
+######################################################## */
   
   .Gold-line form a {
 	position: relative;
 	display: inline-block;
 	padding: 10px 20px;
-	color: #03e9f4;
+	color: #ffb700;
 	font-size: 16px;
 	text-decoration: none;
 	text-transform: uppercase;
 	overflow: hidden;
 	transition: .5s;
 	margin-top: 40px;
-	letter-spacing: 4px
+	letter-spacing: 4px;
+	background-color: rgba(0, 0, 0, 0.6);
   }
   
   .Gold-line a:hover {
-	background: #03e9f4;
+	background: #ffb700;
 	color: #fff;
 	border-radius: 5px;
-	box-shadow: 0 0 5px #03e9f4,
-				0 0 25px #03e9f4,
-				0 0 50px #03e9f4,
-				0 0 100px #03e9f4;
+	box-shadow: 0 0 5px #ffb700,
+				0 0 25px #ffb700,
+				0 0 50px #ffb700,
+				0 0 100px #ffb700;
   }
   
   .Gold-line a span {
@@ -1332,7 +1204,7 @@ label {
 	left: -100%;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(90deg, transparent, #03e9f4);
+	background: linear-gradient(90deg, transparent, #ffb700);
 	animation: btn-anim1 1s linear infinite;
   }
   
@@ -1350,7 +1222,7 @@ label {
 	right: 0;
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(180deg, transparent, #03e9f4);
+	background: linear-gradient(180deg, transparent, #ffb700);
 	animation: btn-anim2 1s linear infinite;
 	animation-delay: .25s
   }
@@ -1369,7 +1241,7 @@ label {
 	right: -100%;
 	width: 100%;
 	height: 2px;
-	background: linear-gradient(270deg, transparent, #03e9f4);
+	background: linear-gradient(270deg, transparent, #ffb700);
 	animation: btn-anim3 1s linear infinite;
 	animation-delay: .5s
   }
@@ -1388,7 +1260,7 @@ label {
 	left: 0;
 	width: 2px;
 	height: 100%;
-	background: linear-gradient(360deg, transparent, #03e9f4);
+	background: linear-gradient(360deg, transparent, #ffb700);
 	animation: btn-anim4 1s linear infinite;
 	animation-delay: .75s
   }
@@ -1401,3 +1273,4 @@ label {
 	  bottom: 100%;
 	}
   }
+
